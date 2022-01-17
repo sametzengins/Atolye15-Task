@@ -23,7 +23,7 @@ class ImageManipulationController extends Controller
         imagestring ($im, $font, 50, 50, $string, $text_color);
         $transparent = imagecolorallocatealpha($im, 0, 0, 0, 127);
 
-        if ($shape == "oval"){
+        if ($shape == "round"){
             $r=$size/2;
             for($x=0;$x<$size;$x++)
                 for($y=0;$y<$size;$y++){
