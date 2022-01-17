@@ -17,7 +17,7 @@ const App: FC = () => {
             key: '2',
             property: 'shape',
             description: 'Determine the avatar\'s shape. You have two option',
-            type: 'square | oval',
+            type: 'square | round',
             default: '-',
         },
         {

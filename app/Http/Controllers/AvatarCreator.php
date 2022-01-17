@@ -58,9 +58,9 @@ class AvatarCreator extends Controller
                 //creating transparent area
                 $transparent = imagecolorallocatealpha($image, 0, 0, 0, 127);
 
-                //creating two if statements here because creating oval shape is addition to square shape
-                if ($shape == "square" || $shape == "oval") {
-                    if ($shape == "oval") {
+                //creating two if statements here because creating round shape is addition to square shape
+                if ($shape == "square" || $shape == "round") {
+                    if ($shape == "round") {
                         $r = $size / 2;
                         for ($x = 0; $x < $size; $x++)
                             for ($y = 0; $y < $size; $y++) {
